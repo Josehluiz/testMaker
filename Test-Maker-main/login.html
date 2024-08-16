@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário Responsivo de Login e Cadastro </title>
+    <link href="../css/login.css" rel="stylesheet" >
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+                    
+</head>
+<body>
+    <section class="container forms">
+        <div class="form login " style="color: #E3CDFE; border: 4px solid #E3CDFE; padding: 2px 8px; border-radius: 4px; text-decoration: none; padding: 25px; ">
+            <div class="form-content">
+                <header>Login</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Senha" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="./salas.html" class="forgot-pass" style="color: #E3CDFE; padding: 2px 8px; border-radius: 4px; text-decoration: underline;">Esqueceu a senha?</a>
+                    </div>
+                    
+                   
+                    <div class="field button-field">
+                    
+                        <button>
+                            <a href="./home.html"> 
+                             Login 
+                            </a>
+                            </button>
+                    
+                    </div>
+                    
+                </form>
+
+                <div class="form-link">
+                    <span>Não tem uma conta? <a href="#" class="link signup-link" >Cadastre-se</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login com Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="../imagens/google.png" alt="" class="google-img">
+                    <span>Login com Google</span>
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Cadastro</header>
+                <form action="#">
+                    <div class="field input-field">
+                        <input type="email" placeholder="Email" class="input">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Criar senha" class="password">
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" placeholder="Confirmar senha" class="password">
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <button>Cadastro</button>
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Já tem uma conta? <a href="#" class="link login-link">Login</a></span>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="media-options">
+                <a href="#" class="field facebook">
+                    <i class='bx bxl-facebook facebook-icon'></i>
+                    <span>Login com Facebook</span>
+                </a>
+            </div>
+
+            <div class="media-options">
+                <a href="#" class="field google">
+                    <img src="#" alt="" class="google-img">
+                    <span>Login com Google</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
